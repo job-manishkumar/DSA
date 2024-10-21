@@ -25,7 +25,7 @@ public class PeakElement {
 	}
 
 	//approach 2 using binary search
-	//TC -> (nlogn) and sc -> (1)
+	//TC -> (logn) and sc -> (1)
 	public static int peakElement_2(int[] arr) {
 
 		if (arr.length == 0) {
