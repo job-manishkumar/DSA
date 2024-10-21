@@ -63,9 +63,9 @@ public class PeakElement {
 
 	public static void main(String[] args) {
 		//int[] a = {1, 2, 3};
-		//int[] a = {1, 1, 1, 2, 1, 1, 1};
-		//System.out.println(peakElement(a));
-		int[] a = {2,4,12,8,10,14,16,13};
+		int[] a = {1, 1, 1, 2, 1, 1, 1};
+		System.out.println(peakElement(a));
+		 a = new int[]{2,4,12,8,10,14,16,13};
 		System.out.println(peakElement_2(a));
 	}
 
