@@ -21,11 +21,11 @@ public class RotateArrayByOne {
 
 		int rotateTime = 1;
 		//reverse whole array
-		reverseArray(arr,0,arr.length-1);
+		reverseArray(arr, 0, arr.length - 1);
 		//reverse array form 0 to rotateTime-1;
-		reverseArray(arr,0,rotateTime-1);
+		reverseArray(arr, 0, rotateTime - 1);
 		//reverse array from rotateTime to arr.length-1;
-		reverseArray(arr,rotateTime,arr.length-1);
+		reverseArray(arr, rotateTime, arr.length - 1);
 	}
 
 	public static void reverseArray(int[] arr, int startIndex, int endIndex) {
