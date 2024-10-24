@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class MinMaxElement {
 
+	//tc -> O(n) and sc -> O((1)
 	public static void printMinMaxElement() {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the length of array.");
