@@ -4,7 +4,7 @@ public class FirstOccurrenceInBinaryArray {
 
 	//approach 1 -- linear search
 	//tc -> O(n) and sc ->O(1)
-	public static int findOccurrence(int[] arr) {
+	public static long findOccurrence(int[] arr) {
 
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] == 1) {
@@ -16,7 +16,7 @@ public class FirstOccurrenceInBinaryArray {
 
 	//approach 2 -- using binary search
 	// tc -> O(logn) and sc -> O(1)
-	public static int findOccurrence_2(int[] arr) {
+	public static long findOccurrence_2(int[] arr) {
 		int low = 0;
 		int high = arr.length - 1;
 		int ans = -1;
