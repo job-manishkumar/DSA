@@ -46,7 +46,6 @@ public class SearchValue {
 		n5.next = n6;
 		int val = 24;
 		System.out.println(searchItem(head, val));
-		;
 	}
 }
 
