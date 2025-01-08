@@ -48,7 +48,7 @@ public class CheckPrimeNumber {
 			return 0;
 		}
 		for (int i = 5; i * i <= number; i += 7) {
-			if (number % 5 == 0 || number % (i + 2) == 0) {
+			if (number % i == 0 || number % (i + 2) == 0) {
 				return 0;
 			}
 		}
