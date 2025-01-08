@@ -1,5 +1,6 @@
 package training.practice.scaler.introtoproblemsolving;
 
+/*Given an integer A, you need to find the count of it’s factors. Factors of a number is the number is the number which divides it perfectly leaving no remainder.*/
 public class CountFactor {
 
 	//approach 1
