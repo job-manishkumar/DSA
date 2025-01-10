@@ -49,7 +49,7 @@ public class CheckGoodPair {
 			if (map.containsKey(nextElement)) {
 				return true;
 			} else {
-				map.put(arr[i], 1);
+				map.put(arr[i], nextElement);
 			}
 		}
 		return false;
