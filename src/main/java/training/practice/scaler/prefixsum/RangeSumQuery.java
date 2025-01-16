@@ -39,7 +39,7 @@ public class RangeSumQuery {
 		for (int i = 0; i < b.length; i++) {
 			int start = b[i][0];
 			int end = b[i][1];
-			if (i == 0) {
+			if (start == 0) {
 				result[i] = arr[end];
 			} else {
 				result[i] = arr[end] - arr[start - 1];
