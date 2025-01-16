@@ -13,6 +13,7 @@ public class MergeAndSort {
 
 
 	//approach 1
+	//*tc -> O(nlong) and sc -> O(n)
 	public static int[] mergeAndSort(int[] arr1, int[] arr2) {
 		Arrays.sort(arr1);// nlogn
 		Arrays.sort(arr2);//nlogn
@@ -59,7 +60,7 @@ public class MergeAndSort {
 	}
 
 	//approach 2
-
+	//*tc -> O(nlong) and sc -> O(n)
 	public static int[] mergeAndSort_2(int[] arr1, int[] arr2) {
 		Set<Integer> set = new TreeSet<>();
 		for (int val1 : arr1) {
